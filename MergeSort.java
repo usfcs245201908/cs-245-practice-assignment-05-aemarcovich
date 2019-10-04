@@ -17,7 +17,7 @@ public class MergeSort implements SortingAlgorithm
 		int i=0;
 		int x=0;
         int t = start; 
-        while (i < size1 && x < size1) 
+        while (i < size1 && x < size2) 
         { 
             if (l[i] <= r[x]) 
             { 
@@ -53,7 +53,7 @@ public class MergeSort implements SortingAlgorithm
 		if (start<end)
 		{
 			int mid = (start+end)/2;
-			sort(a,start,end);
+			sort(a,start,mid);
 			sort(a,mid+1,end);
 			merge(a,start,mid,end);
 		}

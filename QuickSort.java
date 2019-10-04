@@ -1,6 +1,6 @@
 public class QuickSort implements SortingAlgorithm
 {
-    public int pivot(int [] a, int start, int end) 
+    private int pivot(int [] a, int start, int end) 
     { 
         int piv = a[end];  
         int i = (start-1);  
@@ -17,7 +17,6 @@ public class QuickSort implements SortingAlgorithm
         int temp =a[i+1];
         a[i+1]=a[end];
         a[end]=temp;
-
         return i+1;
     }
 	public void sort(int [] a)
@@ -33,4 +32,5 @@ public class QuickSort implements SortingAlgorithm
             sort(a, pi+1, end); 
         } 
     } 
+
 }
