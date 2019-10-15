@@ -1,3 +1,9 @@
+/**
+*The function takes in an array.
+*The items within the array are compared sequentially
+*and than arraged at the same time.
+*It is bulit one item at a time.
+*/
 public class InsertionSort implements SortingAlgorithm
 {
 	public void sort(int [] a)

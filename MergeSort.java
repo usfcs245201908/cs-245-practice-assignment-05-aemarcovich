@@ -1,3 +1,9 @@
+/**
+*The sort divides the given array into two halves
+*than merges them back together using the merge function.
+*The process repeatily divides the arrays until they 
+*have a size of zero.
+*/
 public class MergeSort implements SortingAlgorithm
 {
 	public void merge(int [] a,int start,int mid,int end)

@@ -1,3 +1,10 @@
+/**
+*Quick Sort works by dividing an array given into two parts.
+*It repeats this divide and locate process until it finds
+*the right position.
+*The pivot function works to use an item of the array as a pivot.
+*Putting lower numbers below the given item and larger items after it. 
+*/
 public class QuickSort implements SortingAlgorithm
 {
     private int pivot(int [] a, int start, int end) 
